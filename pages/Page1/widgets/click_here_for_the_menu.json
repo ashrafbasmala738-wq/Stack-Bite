@@ -1,0 +1,42 @@
+{
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 49,
+  "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+  "defaultImage": "https://i.pinimg.com/736x/68/71/08/687108f1770f216197f270ed8ce13adf.jpg",
+  "dynamicBindingPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "enableDownload": false,
+  "enableRotation": false,
+  "flexVerticalAlignment": "start",
+  "image": "",
+  "imageShape": "RECTANGLE",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "x80xen6hk7",
+  "leftColumn": 14,
+  "maxZoomLevel": 1,
+  "mobileBottomRow": 34,
+  "mobileLeftColumn": 21,
+  "mobileRightColumn": 33,
+  "mobileTopRow": 22,
+  "needsErrorInfo": false,
+  "objectFit": "cover",
+  "onClick": "{{navigateTo('Page2', {}, 'SAME_WINDOW');}}",
+  "originalBottomRow": 49,
+  "originalTopRow": 26,
+  "parentColumnSpace": 6.84375,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 49,
+  "topRow": 26,
+  "type": "IMAGE_WIDGET",
+  "version": 1,
+  "widgetId": "w3haq128qj",
+  "widgetName": "click_here_for_the_menu"
+}
