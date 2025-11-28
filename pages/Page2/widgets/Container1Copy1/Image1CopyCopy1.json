@@ -1,0 +1,44 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 13,
+  "boxShadow": "none",
+  "defaultImage": "https://i.pinimg.com/736x/7a/b7/99/7ab79936b93ff07fa3b73f6a0997579c.jpg",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "enableDownload": false,
+  "enableRotation": false,
+  "flexVerticalAlignment": "start",
+  "image": "",
+  "imageShape": "RECTANGLE",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "esl0b17khh",
+  "leftColumn": 6,
+  "maxZoomLevel": 1,
+  "mobileBottomRow": 15,
+  "mobileLeftColumn": 6,
+  "mobileRightColumn": 18,
+  "mobileTopRow": 3,
+  "needsErrorInfo": false,
+  "objectFit": "cover",
+  "onClick": "{{navigateTo('Page5', {}, 'SAME_WINDOW');}}",
+  "parentColumnSpace": 6.84375,
+  "parentId": "4yrio7d5zf",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 56,
+  "topRow": 0,
+  "type": "IMAGE_WIDGET",
+  "version": 1,
+  "widgetId": "zwbw2ibsml",
+  "widgetName": "Image1CopyCopy1"
+}

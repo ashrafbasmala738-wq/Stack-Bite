@@ -1,0 +1,44 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 10,
+  "boxShadow": "none",
+  "buttonColor": "#ffffff",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "shopping-cart",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "wptynreni2",
+  "leftColumn": 56,
+  "minWidth": 50,
+  "mobileBottomRow": 11,
+  "mobileLeftColumn": 59,
+  "mobileRightColumn": 63,
+  "mobileTopRow": 7,
+  "needsErrorInfo": false,
+  "onClick": "{{navigateTo('Page3', {}, 'SAME_WINDOW');}}",
+  "originalBottomRow": 11,
+  "originalTopRow": 7,
+  "parentColumnSpace": 5.8896484375,
+  "parentId": "xobdmw7vjt",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 60,
+  "topRow": 6,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "5vl9ebmbmk",
+  "widgetName": "IconButton1Copy4Copy"
+}

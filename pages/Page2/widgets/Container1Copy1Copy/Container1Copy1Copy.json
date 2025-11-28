@@ -38,7 +38,7 @@
       "mobileTopRow": 0,
       "needsErrorInfo": false,
       "parentColumnSpace": 1,
-      "parentId": "luofv0k43i",
+      "parentId": "jisdprgu7u",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
@@ -46,8 +46,8 @@
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "4yrio7d5zf",
-      "widgetName": "Canvas1Copy1"
+      "widgetId": "uysmqw0eop",
+      "widgetName": "Canvas1Copy1Copy"
     }
   ],
   "containerStyle": "card",
@@ -65,7 +65,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "u8dkpq8p2t",
-  "leftColumn": 3,
+  "leftColumn": 33,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 10,
   "minWidth": 450,
@@ -81,11 +81,11 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 31,
+  "rightColumn": 61,
   "shouldScrollContents": true,
   "topRow": 23,
   "type": "CONTAINER_WIDGET",
   "version": 1,
-  "widgetId": "luofv0k43i",
-  "widgetName": "Container1Copy1"
+  "widgetId": "jisdprgu7u",
+  "widgetName": "Container1Copy1Copy"
 }
