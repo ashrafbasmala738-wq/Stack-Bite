@@ -8,7 +8,7 @@
   "boxShadow": "none",
   "decimals": 0,
   "defaultCurrencyCode": "USD",
-  "defaultText": "",
+  "defaultText": "10",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
