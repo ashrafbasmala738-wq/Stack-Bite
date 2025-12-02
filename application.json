@@ -45,7 +45,19 @@
       "isDefault": false
     },
     {
-      "id": "customer information",
+      "id": "Page7",
+      "isDefault": false
+    },
+    {
+      "id": "Page8",
+      "isDefault": false
+    },
+    {
+      "id": "Page9",
+      "isDefault": false
+    },
+    {
+      "id": "Page10",
       "isDefault": false
     }
   ],
