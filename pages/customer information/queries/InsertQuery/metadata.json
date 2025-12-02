@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "691df62bf5e7db215e2746ac_f2fc2658-e7d4-4870-ab7b-192a76c5c307",
+  "gitSyncId": "691df62bf5e7db215e2746ac_8f02c724-f623-4e2d-8cac-6cc7539c5e00",
   "id": "customer information_InsertQuery",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "INSERT INTO public.\"customer\" (\n\t\"first_name\",\n\t\"last_name\",\n\t\"email\",\n\t\"password_hash\",\n\t\"phone\",\n\t\"fraud_score\",\n\t\"wallet_balance\",\n\t\"status\")\nVALUES (\n\t'{{insert_form.formData.first_name}}',\n\t'{{insert_form.formData.last_name}}',\n\t'{{insert_form.formData.email}}',\n\t'{{insert_form.formData.password_hash}}',\n\t'{{insert_form.formData.phone}}',\n\t'{{insert_form.formData.fraud_score}}',\n\t'{{insert_form.formData.wallet_balance}}',\n\t'{{insert_form.formData.status}}');",
+      "body": "INSERT INTO public.\"address\" (\n\t\"zip_code\",\n\t\"customer_id\",\n\t\"address\",\n\t\"city\",\n\t\"latitude\",\n\t\"longitude\",\n\t\"label\")\nVALUES (\n\t'{{insert_form.formData.zip_code}}',\n\t'{{insert_form.formData.customer_id}}',\n\t'{{insert_form.formData.address}}',\n\t'{{insert_form.formData.city}}',\n\t'{{insert_form.formData.latitude}}',\n\t'{{insert_form.formData.longitude}}',\n\t'{{insert_form.formData.label}}');",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

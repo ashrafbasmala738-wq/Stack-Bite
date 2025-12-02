@@ -1,18 +1,16 @@
-INSERT INTO public."customer" (
-	"first_name",
-	"last_name",
-	"email",
-	"password_hash",
-	"phone",
-	"fraud_score",
-	"wallet_balance",
-	"status")
+INSERT INTO public."address" (
+	"zip_code",
+	"customer_id",
+	"address",
+	"city",
+	"latitude",
+	"longitude",
+	"label")
 VALUES (
-	'{{insert_form.formData.first_name}}',
-	'{{insert_form.formData.last_name}}',
-	'{{insert_form.formData.email}}',
-	'{{insert_form.formData.password_hash}}',
-	'{{insert_form.formData.phone}}',
-	'{{insert_form.formData.fraud_score}}',
-	'{{insert_form.formData.wallet_balance}}',
-	'{{insert_form.formData.status}}');
+	'{{insert_form.formData.zip_code}}',
+	'{{insert_form.formData.customer_id}}',
+	'{{insert_form.formData.address}}',
+	'{{insert_form.formData.city}}',
+	'{{insert_form.formData.latitude}}',
+	'{{insert_form.formData.longitude}}',
+	'{{insert_form.formData.label}}');

@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "691df62bf5e7db215e2746ac_4bed1b42-1f82-4cb8-ad7b-f43f0cc56d35",
+  "gitSyncId": "691df62bf5e7db215e2746ac_8cce910f-6456-44d6-a3ac-d0516d3cdff8",
   "id": "customer information_SelectQuery",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT * FROM public.\"customer\"\nWHERE \"first_name\" ilike '%{{data_table.searchText || \"\"}}%'\nORDER BY \"{{data_table.sortOrder.column || 'id'}}\" {{data_table.sortOrder.order || 'ASC'}}\nLIMIT {{data_table.pageSize}}\nOFFSET {{(data_table.pageNo - 1) * data_table.pageSize}};",
+      "body": "SELECT * FROM public.\"address\"\nWHERE \"zip_code\" ilike '%{{data_table.searchText || \"\"}}%'\nORDER BY \"{{data_table.sortOrder.column || 'id'}}\" {{data_table.sortOrder.order || 'ASC'}}\nLIMIT {{data_table.pageSize}}\nOFFSET {{(data_table.pageNo - 1) * data_table.pageSize}};",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

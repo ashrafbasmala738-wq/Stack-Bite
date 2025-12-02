@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "691df62bf5e7db215e2746ac_ef320199-7d59-4cf1-8236-b857418a23e9",
+  "gitSyncId": "691df62bf5e7db215e2746ac_2cf33733-1cee-4c6e-b077-404794506725",
   "id": "customer information_DeleteQuery",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "DELETE FROM public.\"customer\"\n  WHERE \"id\" = {{data_table.triggeredRow.id}};",
+      "body": "DELETE FROM public.\"address\"\n  WHERE \"id\" = {{data_table.triggeredRow.id}};",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
