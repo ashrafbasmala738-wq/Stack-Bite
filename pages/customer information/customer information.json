@@ -1,22 +1,24 @@
 {
-  "gitSyncId": "691df62bf5e7db215e2746ac_6fa67711-17e8-4a0a-97d3-c78ff3e08ad9",
+  "gitSyncId": "691df62bf5e7db215e2746ac_171d406f-71d5-40df-bee1-02cf6617a10e",
   "unpublishedPage": {
+    "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 540,
+          "bottomRow": 1440,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
+          "dynamicTriggerPathList": [],
           "leftColumn": 0,
-          "minHeight": 620,
+          "minHeight": 900,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
-          "rightColumn": 1224,
+          "rightColumn": 1174,
           "snapColumns": 64,
-          "snapRows": 60,
+          "snapRows": 125,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 94,
@@ -25,7 +27,7 @@
         }
       }
     ],
-    "name": "Page7",
-    "slug": "page7"
+    "name": "customer information",
+    "slug": "customer-information"
   }
 }
