@@ -1,0 +1,18 @@
+INSERT INTO public."customer" (
+	"first_name",
+	"last_name",
+	"email",
+	"password_hash",
+	"phone",
+	"fraud_score",
+	"wallet_balance",
+	"status")
+VALUES (
+	'{{insert_form.formData.first_name}}',
+	'{{insert_form.formData.last_name}}',
+	'{{insert_form.formData.email}}',
+	'{{insert_form.formData.password_hash}}',
+	'{{insert_form.formData.phone}}',
+	'{{insert_form.formData.fraud_score}}',
+	'{{insert_form.formData.wallet_balance}}',
+	'{{insert_form.formData.status}}');

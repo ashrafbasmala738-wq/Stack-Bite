@@ -1,23 +1,23 @@
 {
-  "gitSyncId": "691df62bf5e7db215e2746ac_907ead92-427e-4836-aee0-e9d25844f092",
+  "gitSyncId": "691df62bf5e7db215e2746ac_3f5ee5d4-8bca-4f16-881d-64ce613adeb3",
   "unpublishedPage": {
-    "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 820,
+          "bottomRow": 1340,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
+          "dynamicTriggerPathList": [],
           "leftColumn": 0,
-          "minHeight": 590,
+          "minHeight": 900,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
-          "rightColumn": 1224,
+          "rightColumn": 1174,
           "snapColumns": 64,
-          "snapRows": 57,
+          "snapRows": 125,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 94,
@@ -26,7 +26,7 @@
         }
       }
     ],
-    "name": "Page10",
-    "slug": "page10"
+    "name": "Public.customer",
+    "slug": "public-customer"
   }
 }

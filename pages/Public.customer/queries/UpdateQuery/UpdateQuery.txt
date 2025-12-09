@@ -1,0 +1,10 @@
+UPDATE public."customer" SET
+		"first_name" = '{{update_form.fieldState.first_name.isVisible ? update_form.formData.first_name : update_form.sourceData.first_name}}',
+		"last_name" = '{{update_form.fieldState.last_name.isVisible ? update_form.formData.last_name : update_form.sourceData.last_name}}',
+    "email" = '{{update_form.fieldState.email.isVisible ? update_form.formData.email : update_form.sourceData.email}}',
+		"password_hash" = '{{update_form.fieldState.password_hash.isVisible ? update_form.formData.password_hash : update_form.sourceData.password_hash}}',
+		"phone" = '{{update_form.fieldState.phone.isVisible ? update_form.formData.phone : update_form.sourceData.phone}}',
+		"fraud_score" = '{{update_form.fieldState.fraud_score.isVisible ? update_form.formData.fraud_score : update_form.sourceData.fraud_score}}',
+		"wallet_balance" = '{{update_form.fieldState.wallet_balance.isVisible ? update_form.formData.wallet_balance : update_form.sourceData.wallet_balance}}',
+		"status" = '{{update_form.fieldState.status.isVisible ? update_form.formData.status : update_form.sourceData.status}}'
+WHERE "id" = {{data_table.selectedRow.id}};

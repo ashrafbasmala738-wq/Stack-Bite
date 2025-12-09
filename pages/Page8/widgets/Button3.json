@@ -31,7 +31,7 @@
   "mobileRightColumn": 37,
   "mobileTopRow": 48,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('Page10', {}, 'SAME_WINDOW');}}",
+  "onClick": "{{Query2.run();}}",
   "originalBottomRow": 52,
   "originalTopRow": 48,
   "parentColumnSpace": 6.84375,
